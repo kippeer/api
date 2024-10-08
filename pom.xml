@@ -65,6 +65,13 @@
 			<artifactId>flyway-core</artifactId>
 			<version>9.22.0</version> <!-- Versão mais recente até agora -->
 		</dependency>
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-bom</artifactId>
+			<version>1.12.400</version> <!-- Substitua pela versão mais recente -->
+			<type>pom</type>
+			<scope>import</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
